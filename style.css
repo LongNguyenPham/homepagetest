@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://64.media.tumblr.com/dbb3ec605979f02dab61f1d98c67576e/tumblr_otb6ajEHRH1qzxv73o1_540.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(32, 155, 32);
+    text-shadow: 0px 1px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(5, 56, 5);
+    text-shadow: 0px 1px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lmao{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    width: 200px;
+    padding: 30px;
+    transition: transform .3s;
+}
+.lmao:hover{
+    transform: scale(1.2);
+}
+.navbar {
+    width: 100%;
+}
+
+.navbar nav {
+    /* width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; */
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgba(0, 0, 0, .3); */
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar nav ul li {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 2px black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+.logo {
+    width: 100px;
+    align-items: safe;
+}
+
+.terms{
+    text-align: center;
+    padding-right: 15px;
+    padding-top: 110px;
+    opacity: 30%;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin-top: 25px;
+}
